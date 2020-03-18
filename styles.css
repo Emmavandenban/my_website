@@ -1,13 +1,11 @@
 @charset "UTF-8";
 
 .jumbotron{
-	
+	background-color: black;
+	color: white;
 }
 
-.container-fluid main image{
-	height: 50px;
-	width: 130px;
-	
+.container main image{
 }
 
 .little images {
