@@ -1,12 +1,12 @@
 @charset "UTF-8";
-.container-fluid text{
+
+.jumbotron{
 	
 }
 
-.container-fluid image{
-	
-}
-.explanation text {
+.container-fluid main image{
+	height: 50px;
+	width: 130px;
 	
 }
 
