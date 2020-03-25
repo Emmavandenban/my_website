@@ -5,12 +5,18 @@
 	color: white;
 }
 
-.container main image{
+.body{
+	color:#000000;
+	font-family: "Arial";
 }
 
-.little images {
+.little-images {
 	height: 10px;
 	width: 15px;
+}
+
+.little-image-1{
+	background-color: #F193FF;
 }
 
 
