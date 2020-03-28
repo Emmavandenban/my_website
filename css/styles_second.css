@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.header{
+	color:magenta;
+}
+
+.jumbotron{
+	background-color: black;
+    color: white;
+    font-family: verdana;
+}
+
+
+body{
+	background-color: black;
+	color: white;
+	font-family: verdana;
+}
+
+.Emmaclass{
+background-color: magenta;
+}
+
+.navigation{
+	color:magenta;
+}
+
+.footer{
+	color: magenta;
+}
+
+
+

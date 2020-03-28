@@ -9,38 +9,56 @@
 <!-- Bootstrap css -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- my styles -->
-<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 <title> Streetart </title>
 </head> <!-- head ends here-->
 
 <body> <!-- body starts here-->
+
+	<div class="header">
 	<h1> Brand name</h1>
-	
-<div class="navbar"><!-- navbar starts here-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	</div>
+<div class= "navigation"><!--start class navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light"><!--start header-->
+  <a class="navbar-brand" href="file:///Users/emmavandenban/Documents/GitHub/my_website/Secondpage.html">Navbar</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-		
-  <div class="collapse navbar-collapse" id="navbarNav"><!--div collapse navbar starts here-->
-    <ul class="navbar-nav">
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--start div 1-->
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="file:///Users/emmavandenban/Documents/GitHub/my_website/index.html">Home <span class="sr-only">(current)</span></a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="#">New york</a>
+        <a class="nav-link" href="file:///Users/emmavandenban/Documents/GitHub/my_website/Secondpage.html">New York</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Amsterdam</a>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="file:///Users/emmavandenban/Documents/GitHub/my_website/Secondpage.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See more cities
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="file:///Users/emmavandenban/Documents/GitHub/my_website/Secondpage.html">New York</a>
+          <a class="dropdown-item" href="file:///Users/emmavandenban/Documents/GitHub/my_website/Secondpage.html">Amsterdam</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="file:///Users/emmavandenban/Documents/GitHub/my_website/Secondpage.html">Milaan</a>
+        </div>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Paris</a>
+        <a class="nav-link disabled" href="file:///Users/emmavandenban/Documents/GitHub/my_website/Secondpage.html" tabindex="-1" aria-disabled="true">Paris</a>
       </li>
     </ul>
-  </div> <!--div collapse navbar ends here-->
-</nav> <!--navbar ends here-->
-	</div><!-- div navbar ends here-->
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Contact</button>
+    </form>
+  </div><!--closing div 1-->
+</nav><!--closing header-->
+</div><!--closing class navigation-->
 
 
 <div class="jumbotron"><!-- jumbotron starts here-->
@@ -54,13 +72,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget vulpu
 			</div><!-- jumbotron starts here-->
 		
 	
-<div class="container main image"> <!-- container starts here-->
-	<div class="row"> <!-- row starts here-->
-	<div class="col-12"> 
-	<img src="images/main-image.jpg" alt="Streetart" height="300" width="1200"><!--main image -->
-		</div> <!--class ends here-->
-	</div> <!-- row ends here-->
-</div><!-- container ends here-->
 
 <div class="container-fluid explanation text"> <!-- container starts here-->
 	<div class="row"> <!-- row starts here-->
@@ -73,49 +84,34 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget vulpu
 
 <div class="container little-images"> <!-- container small photos starts here-->
 	<div class="row"> <!-- row starts here-->
-		<div class="col-lg-2 col-md-4 col-sm-12 little-image-1"> 
+		<div class="col-lg-2 col-md-4 col-sm-12 Emmaclass"> 
 		<img src="images/small-amsterdam.jpg" class="img-fluid" alt="Amsterdam"><!--little image 1 would go here--></div>
 		
-		<div class="col-lg-2 col-md-4 col-sm-12 little-image-2"> 
+		<div class="col-lg-2 col-md-4 col-sm-12 Emmaclass"> 
 		<img src="images/small-berlin.jpg" class="img-fluid" alt="Berlin"><!--little image 2 would go here--></div>
 		
-		<div class="col-lg-2 col-md-4 col-sm-12 little-image-3"> 
+		<div class="col-lg-2 col-md-4 col-sm-12 Emmaclass"> 
 		<img src="images/small-london.jpg" class="img-fluid" alt="Londen"><!--little image 3 would go here--></div>
 		
-		<div class="col-lg-2 col-md-4 col-sm-12 little-image-4"> 
+		<div class="col-lg-2 col-md-4 col-sm-12 Emmaclass"> 
 		<img src="images/small-milaan.jpg" class="img-fluid" alt="Milaan"><!--little image 4 would go here--></div>
 		
-		<div class="col-lg-2 col-md-4 col-sm-12 little-image-5"> 
+		<div class="col-lg-2 col-md-4 col-sm-12 Emmaclass"> 
 		<img src="images/small-newyork.jpg" class="img-fluid" alt="New york"><!--little image 5 would go here--></div>
 		
-		<div class="col-lg-2 col-md-4 col-sm-12 little-image-6"> 
+		<div class="col-lg-2 col-md-4 col-sm-12 Emmaclass"> 
 		<img src="images/small-paris.jpg" class="img-fluid" alt="Paris"><!--little image 6 would go here--></div>
 	</div> <!-- row ends here-->
 </div><!-- container small photos ends here-->
 
 	
-	
-<footer><!--footer starts here-->
-	<form><!--form starts here-->
-  <div class="form-group"><!--start div class-->
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div><!--closing div class-->
-		
-  <div class="form-group"><!--start div class-->
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div><!--closing div class-->
-		
-  <div class="form-group form-check"><!--start div class-->
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div> <!--closing div class-->
-		
-  <button type="submit" class="btn btn-primary">Submit</button><!--botton-->
-</form><!--form ends here-->
-</footer><!--footer ends here-->
+	<div class="jumbotron jumbotron-fluid"><!--class starts here-->
+  <div class="footer"><!--container starts here-->
+    <h1 class="display-8">Thanks for visiting</h1>
+    <p class="lead">@2020 Breda University of Applied Sciences.</p>
+  </div><!--container ends here-->
+</div><!--class ends here-->
+
 
 	<!-- optional Javascript -->
 <!-- jQuery first (Popper.js is included in the Bootstrap.JS) then Bootstrap.JS -->
