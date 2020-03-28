@@ -17,11 +17,10 @@ body{
 	font-family: verdana;
 }
 
-.Emmaclass{
-background-color: magenta;
+.title{
+	color: magenta;
 }
-
-.navigation{
+.nav{
 	color:magenta;
 }
 
