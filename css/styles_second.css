@@ -10,6 +10,9 @@
     font-family: verdana;
 }
 
+.carousel-item active{
+	align-content: center;
+}
 
 body{
 	background-color: black;
