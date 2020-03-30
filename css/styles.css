@@ -30,4 +30,22 @@ background-color: magenta;
 }
 
 
+.carousel-item active{
+	align-content: center;
+}
+
+body{
+	background-color: black;
+	color: white;
+	font-family: verdana;
+}
+
+.title{
+	color: magenta;
+}
+.nav{
+	color:magenta;
+}
+
+
 
